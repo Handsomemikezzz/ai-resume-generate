@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { ResumeData } from './types';
-import PersonalInfo from './components/PersonalInfo';
-import PowerProfile from './components/PowerProfile';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
+import type { ResumeData } from './types';
+import PersonalInfo from './srcs/components/PersonalInfo';
+import PowerProfile from './srcs/components/PowerProfile';
+import Experience from './srcs/components/Experience';
+import Education from './srcs/components/Education';
+import Skills from './srcs/components/Skills';
+import Projects from './srcs/components/Projects';
 
 const App = () => {
   const [resumeData, setResumeData] = useState<ResumeData>({

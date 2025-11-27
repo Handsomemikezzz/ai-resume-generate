@@ -1,5 +1,5 @@
-import React from 'react';
-import { PersonalInfo as PersonalInfoType } from '../types';
+import type React from 'react';
+import type { PersonalInfo as PersonalInfoType } from '../../types';
 
 interface PersonalInfoProps {
   data: PersonalInfoType;

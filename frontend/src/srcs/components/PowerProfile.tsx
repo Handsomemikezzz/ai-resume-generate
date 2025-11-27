@@ -1,5 +1,5 @@
-import React from 'react';
-import { PowerProfile as PowerProfileType } from '../types';
+import type React from 'react';
+import type { PowerProfile as PowerProfileType } from '../../types';
 
 interface PowerProfileProps {
   data: PowerProfileType;

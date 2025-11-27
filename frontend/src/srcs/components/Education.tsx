@@ -1,5 +1,5 @@
-import React from 'react';
-import { Education as EducationType } from '../types';
+import type React from 'react';
+import type { Education as EducationType } from '../../types';
 
 interface EducationProps {
   data: EducationType[];

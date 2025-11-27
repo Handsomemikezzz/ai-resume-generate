@@ -1,5 +1,5 @@
-import React from 'react';
-import { Skills as SkillsType } from '../types';
+import type React from 'react';
+import type { Skills as SkillsType } from '../../types';
 
 interface SkillsProps {
   data: SkillsType;

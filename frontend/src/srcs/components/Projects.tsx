@@ -1,5 +1,5 @@
-import React from 'react';
-import { Project as ProjectType } from '../types';
+import type React from 'react';
+import type { Project as ProjectType } from '../../types';
 
 interface ProjectsProps {
   data: ProjectType[];
